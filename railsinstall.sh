@@ -27,8 +27,8 @@ sudo apt-get -y install postgresql
 sudo apt-get -y install libpq-dev
 
 
-git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
-git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 echo 'export PATH="$PATH:$HOME/.rbenv/bin"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
